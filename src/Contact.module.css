@@ -1,0 +1,126 @@
+.contact-container {
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+  }
+
+  .contact-title {
+    text-align: center;
+  }
+
+
+  .contact-info {
+    flex: 1;
+    list-style: none;
+    padding: 0 20px 0 0;
+    margin: auto;
+  }
+  
+  .contact-info-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .contact-info li {
+    margin-bottom: 10px;
+    
+  }
+  
+  .contact-info li svg {
+    margin-right: 10px;
+  }
+  
+  .contact-info a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  .contact-info a:hover {
+    color: #23527c;
+  }
+  
+  .contact-form-container {
+    flex: 1;
+
+  }
+  
+  .contact {
+    max-width: 600px;
+    margin: 40px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  form {
+    margin-top: 20px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #23527c;
+  }
+  
+  .contactForm {
+    margin-top: 20px;
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  .formGroup label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .formGroup input,
+  .formGroup textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .submitButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submitButton:hover {
+    background-color: #0056b3;
+  }
+  

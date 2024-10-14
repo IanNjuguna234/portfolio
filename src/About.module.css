@@ -1,0 +1,41 @@
+.about {
+    padding: 20px;
+  }
+  
+  .companySection, .founderSection {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  
+  .companyImage {
+    width: 100%;
+    max-width: 300px;
+    margin-right: 20px;
+  }
+  
+  .founderImage {
+    width: 150%;
+    max-width: 200px;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .companyDescription, .founderDescription {
+    flex: 1;
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-size: 24px;
+    font-weight: bold;
+    max-width: 65%;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
